@@ -5,8 +5,7 @@ from openai import OpenAI
 class Chatbot:
     
     def create_agent(self):    
-        # self.agent = OpenAI(api_key= os.environ.get("OPEN_AI_KEY"))
-        self.agent = OpenAI(api_key= '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')
+        self.agent = OpenAI(api_key= os.environ.get("OPEN_AI_KEY"))
 
 
     def query_agent(self, query, schema):
